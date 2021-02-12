@@ -14,7 +14,7 @@
 <body>
     <main class="block-element">
         <header class="block-element container">
-            <nav class="block-element">
+            <nav class="block-element desktop-navbar">
                 <div class="logo title">
                     <i class="fa fa-car"></i>
                     Automotive
@@ -49,6 +49,20 @@
                     </ul>
                 </div>
             </nav>
+
+
+
+            <nav class="block-element mobile-navbar">
+                <div class="logo title">
+                    <i class="fa fa-car"></i>
+                    Automotive
+                </div>
+                <div class="humburger-menu">
+                    <div class="first"></div>
+                    <div class="second" ></div>
+                    <div class="third" ></div>
+                </div>
+            </nav>
             <div class="content">
                 <div class="title">
                     <div class="different-text">
@@ -64,23 +78,25 @@
             </div>
         </header>
         <footer class="container block-element">
-            <div class="row title block-element">
-                <div class="footer-title" >
+            <div class="location">
+                <div class="title footer-title">
                     Our Location
                 </div>
-                <div class="footer-title">
-                    Phone
-                </div>
-                <div class="footer-title">
-                    Email
+                <div class="description">
+                    no-15 , vali-asr street, shahriar , tehran
                 </div>
             </div>
-            <div class="row  block-element">
-                <div class="description">
-                    no-15 , vali-asr street , shahriar , tehran
+            <div class="phone">
+                <div class="title footer-title">
+                    Phone
                 </div>
                 <div class="description">
                     +989026332242
+                </div>
+            </div>
+            <div class="email">
+                <div class="title footer-title">
+                    Email
                 </div>
                 <div class="description">
                     automotive@gmail.com
@@ -88,5 +104,40 @@
             </div>
         </footer>
     </main>
+
+    <div class="mobile-menu-zone">
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="#" class="active">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Features
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Price
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Contact
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="highlight">
+                        Book Appointment
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="js/app.js"></script>
 </body>
 </html>
